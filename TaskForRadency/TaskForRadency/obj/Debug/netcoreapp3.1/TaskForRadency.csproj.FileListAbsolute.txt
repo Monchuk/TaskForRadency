@@ -1,0 +1,13 @@
+D:\GItProject\TaskForRadency\TaskForRadency\TaskForRadency\bin\Debug\netcoreapp3.1\TaskForRadency.exe
+D:\GItProject\TaskForRadency\TaskForRadency\TaskForRadency\bin\Debug\netcoreapp3.1\TaskForRadency.deps.json
+D:\GItProject\TaskForRadency\TaskForRadency\TaskForRadency\bin\Debug\netcoreapp3.1\TaskForRadency.runtimeconfig.json
+D:\GItProject\TaskForRadency\TaskForRadency\TaskForRadency\bin\Debug\netcoreapp3.1\TaskForRadency.runtimeconfig.dev.json
+D:\GItProject\TaskForRadency\TaskForRadency\TaskForRadency\bin\Debug\netcoreapp3.1\TaskForRadency.dll
+D:\GItProject\TaskForRadency\TaskForRadency\TaskForRadency\bin\Debug\netcoreapp3.1\TaskForRadency.pdb
+D:\GItProject\TaskForRadency\TaskForRadency\TaskForRadency\obj\Debug\netcoreapp3.1\TaskForRadency.csprojAssemblyReference.cache
+D:\GItProject\TaskForRadency\TaskForRadency\TaskForRadency\obj\Debug\netcoreapp3.1\TaskForRadency.AssemblyInfoInputs.cache
+D:\GItProject\TaskForRadency\TaskForRadency\TaskForRadency\obj\Debug\netcoreapp3.1\TaskForRadency.AssemblyInfo.cs
+D:\GItProject\TaskForRadency\TaskForRadency\TaskForRadency\obj\Debug\netcoreapp3.1\TaskForRadency.csproj.CoreCompileInputs.cache
+D:\GItProject\TaskForRadency\TaskForRadency\TaskForRadency\obj\Debug\netcoreapp3.1\TaskForRadency.dll
+D:\GItProject\TaskForRadency\TaskForRadency\TaskForRadency\obj\Debug\netcoreapp3.1\TaskForRadency.pdb
+D:\GItProject\TaskForRadency\TaskForRadency\TaskForRadency\obj\Debug\netcoreapp3.1\TaskForRadency.genruntimeconfig.cache

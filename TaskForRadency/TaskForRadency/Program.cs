@@ -14,16 +14,14 @@ namespace Test
         {
             return "Sum: " + Sum + "   Number: " + Number;
         }
-
-        // Default comparer for Part type.
+      
         public int CompareTo(Part comparePart)
         {
-            // A null value means that this object is greater.
             if (comparePart == null)
                 return 1;
 
             if (Sum == comparePart.Sum)
-                return Number.CompareTo(comparePart.Number);
+                return this.Number.CompareTo(comparePart.Number);
 
             else
                 return this.Sum.CompareTo(comparePart.Sum);
@@ -33,7 +31,7 @@ namespace Test
     {
         static void Main(string[] args)
         {
-            string input = "2022 70 123    3344 13";
+            string input = "45 34 24 108 76 58 64 130 80";
             // " 2022 70 123    3344 13" 
             var result = Order(input);
             Console.WriteLine(result);

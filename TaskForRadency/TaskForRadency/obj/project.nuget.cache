@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "V1RaPGWt4WAsJR7CWJTq3jVpDDpf0ekq4bXZ7W8n90UJTw28/9sxyrO2Ko57de7tLwfjfk1pNBanx1ZuSW9enw==",
+  "success": true,
+  "projectFilePath": "D:\\GItProject\\TaskForRadency\\TaskForRadency\\TaskForRadency\\TaskForRadency.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\G.O.A.T\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.25\\microsoft.netcore.app.host.win-x64.3.1.25.nupkg.sha512"
+  ],
+  "logs": []
+}
