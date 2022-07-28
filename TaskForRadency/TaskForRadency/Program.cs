@@ -8,7 +8,7 @@ namespace Test
     {
         public string Number { get; set; }
 
-        public int Sum { get; set; }
+        public long Sum { get; set; }
 
         public override string ToString()
         {
@@ -31,8 +31,9 @@ namespace Test
     {
         static void Main(string[] args)
         {
-            string input = "45 34 24 108 76 58 64 130 80";
+            string input = "3 16 9 38 95 1131268 49455 347464 59544965313 496636983114762 85246814996697";
             // " 2022 70 123    3344 13" 
+            // 3 16 9 38 95 1131268 49455 347464 59544965313 496636983114762 85246814996697
             var result = Order(input);
             Console.WriteLine(result);
         }
@@ -45,7 +46,7 @@ namespace Test
 
             foreach (var item in arrayNumber)
             {
-                var validNumber = int.TryParse(item, out var num);
+                var validNumber = long.TryParse(item, out var num);
 
                 if (!validNumber)
                 {
@@ -68,12 +69,12 @@ namespace Test
             return outputMessage;
         }
 
-        static int GetNumberSum(int num)
+        static long GetNumberSum(long num)
         {
-            var sumNumber = 0;
+            long sumNumber = 0;
             while (num > 0)
             {
-                int lastDigitNumber = num % 10;
+                long lastDigitNumber = num % 10;
                 num = num / 10;
                 sumNumber += lastDigitNumber;
             }
