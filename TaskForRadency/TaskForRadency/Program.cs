@@ -39,34 +39,41 @@ namespace Test
         }
         static string Order(string input)
         {
-            var collectionNumbers = new List<Part>();
-            var arrayNumber = input
-                .Split(' ', StringSplitOptions.RemoveEmptyEntries)
-                .ToList();
-
-            foreach (var item in arrayNumber)
+            if (String.IsNullOrEmpty(input))
             {
-                var validNumber = long.TryParse(item, out var num);
+                return "is null or empty";
+            }
+            else
+            {
+                var collectionNumbers = new List<Part>();
+                var arrayNumber = input
+                    .Split(' ', StringSplitOptions.RemoveEmptyEntries)
+                    .ToList();
 
-                if (!validNumber)
+                foreach (var item in arrayNumber)
                 {
-                    throw new Exception("Invalid Number");
+                    var validNumber = long.TryParse(item, out var num);
+
+                    if (!validNumber)
+                    {
+                        throw new Exception("Invalid Number");
+                    }
+
+                    var sumNumber = GetNumberSum(num);
+
+                    collectionNumbers.Add(new Part() { Number = item, Sum = sumNumber });
                 }
 
-                var sumNumber = GetNumberSum(num);
+                collectionNumbers.Sort();
 
-                collectionNumbers.Add(new Part() { Number = item, Sum = sumNumber });
+                var result = collectionNumbers
+                    .Select(x => x.Number)
+                    .ToList();
+
+                string outputMessage = string.Join(' ', result);
+
+                return outputMessage;
             }
-
-            collectionNumbers.Sort();
-
-            var result = collectionNumbers
-                .Select(x => x.Number)
-                .ToList();
-
-            string outputMessage = string.Join(' ', result);
-
-            return outputMessage;
         }
 
         static long GetNumberSum(long num)
